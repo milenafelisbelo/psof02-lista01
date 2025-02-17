@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade exemplo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo"></h1>
+    <div id="exp1">
+        <h2>Desconto</h2>
+        <input type="number" step="0.01" id="preco" placeholder="Preço">
+        <button onclick="desconto()">Obter desconto</button>
+        <p id="resultado0"></p>
+    </div>
+    <div id="exp1">
+        <h2>Inss</h2>
+        <input type="number" step="0.01" id="salario" placeholder="Salário">
+        <button onclick="inss()">INSS</button>
+        <p id="resultado1"></p>
+    </div>
+    <div id="exp1">
+        <h2>Tipo triângulo</h2>
+        <input type="number" id="lado1" placeholder="Digite o lado:">
+        <input type="number" id="lado2" placeholder="Digite o lado:">
+        <input type="number" id="lado3" placeholder="Digite o lado:">
+        <button onclick="triangulo()">Verificar forma</button>
+        <p id="resultado2"></p>
+    </div>
+    <div id="exp1">
+        <h2>Novo preço da mercadoria</h2>
+        <input type="number" id="preco1" placeholder="Digite seu preço:">
+        <input type="text" id="nome" placeholder="Digite nome do produto:">
+        <button onclick="reajustar()">Calcular</button>
+        <p id="resultado3"></p>
+    </div>
+    <div id="exp1">
+        <h2>Maior número</h2>
+        <input type="number" id="num1" placeholder="Número 1" />
+        <input type="number" id="num2" placeholder="Número 2" />
+        <input type="number" id="num3" placeholder="Número 3" />
+        <input type="number" id="num4" placeholder="Número 4" />
+        <input type="number" id="num5" placeholder="Número 5" />
+        <input type="number" id="num6" placeholder="Número 6" />
+        <button onclick="encontrarMaior()">Encontrar Maior</button>
+        <p id="resultado4"></p>
+    </div>
+    <div id="exp1">
+        <h2>ordenar Números</h2>
+        <input type="number" id="num7" placeholder="Número 1" />
+        <input type="number" id="num8" placeholder="Número 2" />
+        <input type="number" id="num9" placeholder="Número 3" />
+        <input type="number" id="num10" placeholder="Número 4" />
+        <input type="number" id="num11" placeholder="Número 5" />
+        <button onclick="ordenarNumeros()">Ordenar números</button>
+        <p id="resultado5"></p>
+    </div>
+    <div id="exp1">
+        <h2>Maior e menor</h2>
+        <input type="number" id="num12" placeholder="Número 1" />
+        <input type="number" id="num13" placeholder="Número 2" />
+        <button onclick="compararNumeros()">Comparar</button>
+        <p id="resultado6"></p>
+    </div>
+    <div id="exp1">
+        <h2>Reajuste salarial</h2>
+        <input type="number" id="salario1" placeholder="Digite seu salario">
+        <button onclick="calcularReajuste()">Calcular Reajuste</button>
+        <p id="resultado7"></p>
+    </div>
+    <div id="exp1">
+        <h2>Média do aluno</h2>
+        <input type="number" id="nota1" placeholder="Digite a 1ª nota">
+        <input type="number" id="nota2" placeholder="Digite a 2ª nota">
+        <input type="number" id="nota3" placeholder="Digite a 3ª nota">
+        <button onclick="calcularMedia()">Calcular</button>
+        <p id="resultado8"></p>
+    </div>
+    <div id="exp1">
+        <h2>Média do aluno</h2>
+        <label for="produto">Selecione o produto:</label>
+        <select id="produto">
+            <option value="camisa">Camisa</option>
+            <option value="bermuda">Bermuda</option>
+            <option value="calca">Calça</option>
+        </select>
+        <br><br>
+        <input type="number" id="preco3" placeholder="Digite o preço do produto">
+        <button onclick="calcularDesconto()">Calcular</button>
+        <p id="resultado9"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

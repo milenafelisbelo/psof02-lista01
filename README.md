@@ -1,1 +1,38 @@
-# psof02-lista01
+# Projeto
+
+## Lista de Exercícios Full Stack
+
+Funcionalidades (Features) com processamento no BackEnd e consumo no FrontEnd.
+
+## Tecnologias
+
+- Node.js  
+- VSCode  
+- Git  
+- GitHub  
+- HTML  
+- CSS  
+- JavaScript (vanilla)  
+
+## Exercícios
+
+1. Desenvolva feature / funcionalidade que calcule desconto de INSS de um funcionário. Se o salário for menor ou igual a 1212,00 reais será de 7,5%, se estiver entre 1212,01 e 2427,35 será de 9%, se estiver entre 2427,36 e 3641,03 o desconto é 12%, se estiver entre 3641,04 e 7087,22 será de 14% e se for maior do que 7087,22 o teto que é o máximo cobrado 14% de 7087,22. Mostre o desconto e o valor do salário final.  
+
+2. Desenvolva feature / funcionalidade que leia os valores de três lados de um triângulo (a, b e c) e se os três lados forem diferentes escreva ESCALENO se os três lados forem iguais EQUILÁTERO e se apenas dois lados forem iguais ISÓSCELES.  
+
+3. Desenvolva feature / funcionalidade que leia o nome e o preço de uma mercadoria. Se o preço for menor do que 1000 terá um aumento de 5% no preço da mercadoria, senão o aumento será de 7%. Mostrar o nome da mercadoria e o seu novo preço.  
+
+4. Desenvolva feature / funcionalidade que leia 6 números inteiros e exiba na tela ao final, o maior número que foi digitado pelo usuário.  
+
+5. Escreva feature / funcionalidade que leia 5 números inteiros em qualquer ordem e exiba na tela ao final, os cinco números em ordem crescente.  
+
+6. Escreva feature / funcionalidade que leia dois números inteiros e determine qual é o maior e o menor.  
+
+7. Desenvolva um algoritmo que faça o cálculo do reajuste salarial do funcionário, baseado nos seguintes parâmetros: 
+   -12% de aumento : 1.750,00 <= salario Atual < 2.000,00
+   -9% de aumento : 2.000,00 <= salario Atual < 3.000,00
+   -6% de aumento : salario Atual >= 3.000,00
+
+8. Crie feacture / funcionalidade que calcule a média de 3 notas do aluno e informe sua situação: (nota maior ou igual a 6 : aprovado), (nota inferior a 6 e maior ou igual a 4 : recuperação), (nota menor que 4 : reprovado).
+
+9. Uma loja está fazendo uma promoção e precisa de ajuda no momento da venda, para liberar os descontos. Baseado na peça, calcule o desconto e exiba o valor final da venda. (camisa - 20% de desconto, bermuda - 10% de desconto, calça - 15% de desconto).
